@@ -1,0 +1,81 @@
+:root { /*button name and code from figma design system 
+  https://www.figma.com/file/q7m4zSvTGrwbvPJFdanryQ/TapTap-Design-System%E4%B8%A8Developers-(Community)?type=design&node-id=16-13306&mode=design&t=Dm9IONjubH7ePquA-0 */
+  --auxiliary-1:#669CF6;
+  --auxiliary-3:#6FCBD5;
+  --auxiliary-7:#F2D65E;
+  --auxiliary-4:#A881F3;
+  --auxiliary-2:#7D81F2;
+  --auxiliary-6:#70C0EE;
+  
+  --primary-font:"Mukta", sans-serif; /*from google fonts*/
+  --secondary-font:"Nunito", sans-serif;
+  
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+/* My Button styles */
+
+.button-my-Primary{
+  background: linear-gradient(90deg, var(--auxiliary-1) 15%,
+    var(--auxiliary-6) 62%, var(--auxiliary-4) 96%);
+padding: 8px;
+}
+
+.button-my-success{
+  background: linear-gradient(90deg, var(--auxiliary-1) 15%,
+    var(--auxiliary-6) 62%, var(--auxiliary-4) 96%);
+padding: 8px;
+}
+.button-my-Danger{
+  background:#D70040;
+padding: 6px;
+}
+
+.button-my-Accept{
+  background:#50C878;
+padding: 2px;
+}
+
+
+
+.carousel-item img {
+    width: 700px; /* Adjust as needed */
+    height: 700px; /* Maintain aspect ratio */
+    margin: auto; /* Center the images horizontally */
+  }
+
+
+.MyParagraphFont {
+  font-family: "Nunito", sans-serif; /* Change "Your Desired Font" to the font you want */
+}
+
+
+
+.card-body {
+  width: 300px; /* Adjust width as needed */
+  margin-right: 25px; /* Add some spacing between card and list */
+}
+
+.list-group {
+  flex: 1; /* This will make the list take up remaining space */
+}
+
+.color-palette {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.color-box {
+width: 100px;
+height: 100px;
+border-radius: 5px;
+}
+
+.color-label {
+margin-top: 5px;
+}
+
